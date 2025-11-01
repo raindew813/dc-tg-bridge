@@ -1,0 +1,23 @@
+{
+  "name": "awwbot",
+  "version": "1.0.0",
+  "description": "A simple discord bot that uses intents to post pictures from r/aww",
+  "type": "module",
+  "private": true,
+  "main": "src/worker.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "publish": "wrangler deploy --minify false"
+  },
+  "keywords": [],
+  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "wrangler": "^4.13.2"
+  }
+}

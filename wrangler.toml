@@ -1,0 +1,9 @@
+name = "dc-tg-bridge"
+main = "./src/worker.js"
+compatibility_date="2023-05-18"
+minify = false
+
+# [secrets]
+# DISCORD_TOKEN
+# DISCORD_PUBLIC_KEY
+# DISCORD_APPLICATION_ID
